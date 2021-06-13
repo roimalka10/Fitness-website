@@ -7,7 +7,7 @@
   height: 72px;
   width: 100%;
   // background-color: transparent;
-  background-color: #000000a6;
+  background-color: transparent;
   z-index: 900;
   transition: all 0.4s ease;
   @media screen and (min-width: 1150px) {
@@ -25,9 +25,9 @@
   background-color: black;
 }
 
-// .navbar-items > .active {
-//   color: #481528;
-// }
+.navbar-items > .active {
+  color: #0c8ec8;
+}
 
 .logo {
   z-index: 950;

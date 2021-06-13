@@ -8,26 +8,78 @@
   font-size: 22px;
   font-family: "karla" !important;
   text-transform: uppercase !important;
+  @media only screen and (max-width: 900px) {
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
+  }
 }
 
 .btn {
   display: inline-block;
   text-transform: uppercase;
-  padding: 8px 10px;
   font-family: "montserrat", sans-serif;
   font-weight: 500;
   font-size: 12px;
+  width: 130px;
+  padding: 8px 0;
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 2px;
   background-color: transparent;
   color: #fff;
   position: relative;
-  outline: none !important;
-  border-radius: 2px;
-  border: 3px solid #fff;
   transition: all 0.4s ease;
-  &:hover {
-    border: 3px solid #27719b;
+
+  .border-top-bottom::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    top: -6px;
+    left: -7px;
+    background: #fff;
+    transition: all 0.4s ease;
+  }
+  .border-top-bottom::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    bottom: -6px;
+    right: -7px;
+    background: #fff;
+    transition: all 0.4s ease;
+  }
+  .border-left-right:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -7px;
+    width: 3px;
+    height: 25px;
+    background: #fff;
+    transition: all 0.4s ease;
+  }
+  .border-left-right:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: -7px;
+    width: 3px;
+    height: 25px;
+    background: #fff;
+    transition: all 0.4s ease;
+  }
+  &:hover .border-top-bottom:before,
+  &:hover .border-top-bottom:after {
+    width: 144px;
+    transition: all 0.4s ease;
+  }
+
+  &:hover .border-left-right:before,
+  &:hover .border-left-right:after {
+    height: 50px;
+    transition: all 0.4s ease;
   }
 }

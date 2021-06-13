@@ -44,6 +44,8 @@ const Home = () => {
                 }}
               >
                 Start here
+                <span className="border-top-bottom"></span>
+                <span className="border-left-right"></span>
               </motion.a>
               <motion.a
                 className="btn"
@@ -55,6 +57,8 @@ const Home = () => {
                 }}
               >
                 Get in touch
+                <span className="border-top-bottom"></span>
+                <span className="border-left-right"></span>
               </motion.a>
             </div>
           </div>
