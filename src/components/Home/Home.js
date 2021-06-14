@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -10,7 +11,6 @@ const Home = () => {
         <div className="home-content container">
           <div className="home-content-main">
             <motion.div
-              className="home-title"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
@@ -21,7 +21,6 @@ const Home = () => {
               <h1 className="h1">PERSONAL TRAINING</h1>
             </motion.div>
             <motion.div
-              className="home-subtitle"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
@@ -65,37 +64,7 @@ const Home = () => {
         </div>
       </section>
       <div className="blue-line"></div>
-      <section className="believe container">
-        <div>
-          <h2 className="h2">What i believe</h2>
-        </div>
-        <div>
-          <p>
-            As a personal trainer, I believe that to be successful in achieving
-            your goals, you have to cut through all the fads and go straight to
-            the proven, core principles of fitness and health. We know that the
-            way to get results is to focus on strategies that yield a high
-            return and cut out the nonsense.
-            <br />
-            <br /> My philosophy is to keep it as simple as possible, making it
-            easier for you to learn the ropes and get sustainable results. We
-            give you the tools you just need to take steps towards your goals
-            through consistent hard work and dedication.
-            <br />
-            <br /> In my gym, it's all about helping people like you gain
-            confidence, appreciate yourself for what you can do and rediscover
-            your youth. Thanks to the range of weekly programs, you’ll learn how
-            to do exercises properly for maximum benefit to your physique, as
-            well as get smartphone app access to tailored training regimes to
-            suit your fitness level and desired pace.
-          </p>
-        </div>
-        <a className="btn2">
-          Contact
-          <span className="border-top-bottom"></span>
-          <span className="border-left-right"></span>
-        </a>
-      </section>
+
       <section className="services container">
         <div>
           <h2 className="h2">Professional strength coaching services</h2>
@@ -117,11 +86,11 @@ const Home = () => {
               feel and look amazing and there won't be anything you can't
               achieve with dedication and commitment..{" "}
             </p>
-            <a className="btn2">
-              Contact
+            <Link to="/about" className="btn2">
+              About us
               <span className="border-top-bottom"></span>
               <span className="border-left-right"></span>
-            </a>
+            </Link>
           </div>
           <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
         </div>
@@ -210,6 +179,37 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section className="believe container">
+        <div>
+          <h2 className="h2">What i believe</h2>
+        </div>
+        <div>
+          <p>
+            As a personal trainer, I believe that to be successful in achieving
+            your goals, you have to cut through all the fads and go straight to
+            the proven, core principles of fitness and health. We know that the
+            way to get results is to focus on strategies that yield a high
+            return and cut out the nonsense.
+            <br />
+            <br /> My philosophy is to keep it as simple as possible, making it
+            easier for you to learn the ropes and get sustainable results. We
+            give you the tools you just need to take steps towards your goals
+            through consistent hard work and dedication.
+            <br />
+            <br /> In my gym, it's all about helping people like you gain
+            confidence, appreciate yourself for what you can do and rediscover
+            your youth. Thanks to the range of weekly programs, you’ll learn how
+            to do exercises properly for maximum benefit to your physique, as
+            well as get smartphone app access to tailored training regimes to
+            suit your fitness level and desired pace.
+          </p>
+        </div>
+        <a className="btn2">
+          Contact
+          <span className="border-top-bottom"></span>
+          <span className="border-left-right"></span>
+        </a>
       </section>
     </>
   );
