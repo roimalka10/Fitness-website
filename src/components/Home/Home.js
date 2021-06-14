@@ -63,7 +63,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="blue-line"></div>
+      <div className="red-line"></div>
 
       <section className="services container">
         <div>
