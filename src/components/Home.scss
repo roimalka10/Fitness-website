@@ -20,6 +20,7 @@
 
 .home-content {
   position: relative;
+
   z-index: 50;
   display: flex;
   justify-content: center;
@@ -63,8 +64,6 @@
 }
 
 .believe {
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 90px 40px;
   display: flex;
   flex-direction: column;
@@ -74,57 +73,117 @@
   h2 {
     font-size: 37px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   p {
     text-align: center;
     margin-bottom: 40px;
   }
-  a {
-    color: black;
+  @media only screen and (max-width: 900px) {
+    padding: 50px 25px;
+  }
+}
+
+.services {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 37px;
     text-align: center;
-    .border-top-bottom::before {
-      content: "";
-      position: absolute;
-      width: 30px;
-      height: 3px;
-      top: -6px;
-      left: -7px;
-      background: black;
-      transition: all 0.4s ease;
+    margin-bottom: 50px;
+  }
+  p {
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+
+  .services-content {
+    display: flex;
+    .services-text {
+      width: 50%;
     }
-    .border-top-bottom::after {
-      content: "";
-      position: absolute;
-      width: 30px;
-      height: 3px;
-      bottom: -6px;
-      right: -7px;
-      background: black;
-      transition: all 0.4s ease;
+    img {
+      margin-top: 10px;
+      width: 50%;
+      padding: 0 20px;
+      height: 50%;
     }
-    .border-left-right:before {
-      content: "";
-      position: absolute;
-      top: -4px;
-      left: -7px;
-      width: 3px;
-      height: 25px;
-      background: black;
-      transition: all 0.4s ease;
-    }
-    .border-left-right:after {
-      content: "";
-      position: absolute;
-      bottom: -4px;
-      right: -7px;
-      width: 3px;
-      height: 25px;
-      background: black;
-      transition: all 0.4s ease;
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+      .services-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+      }
+      img {
+        margin-top: 10px;
+        width: 100%;
+        padding: 0 1px;
+      }
     }
   }
-  @media only screen and (max-width: 900px) {
-    padding: 70px 25px;
+  @media only screen and (max-width: 800px) {
+    padding: 50px 15px;
+  }
+}
+
+.mission {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 30px;
+    }
+  }
+  p {
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .mission-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    div {
+      box-shadow: 0 2px 5px 0 rgba(102, 102, 102, 0.75);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 30px;
+      width: 45%;
+      margin: 0px 10px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    img {
+      width: 100%;
+    }
+    a {
+      margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+      div {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 40px;
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    padding: 50px 20px;
+    display: block;
   }
 }

@@ -1,3 +1,8 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .h1,
 .h2 {
   font-family: "Oswald" !important;
@@ -74,6 +79,76 @@ p {
     width: 3px;
     height: 25px;
     background: #fff;
+    transition: all 0.4s ease;
+  }
+  &:hover .border-top-bottom:before,
+  &:hover .border-top-bottom:after {
+    width: 144px;
+    transition: all 0.4s ease;
+  }
+
+  &:hover .border-left-right:before,
+  &:hover .border-left-right:after {
+    height: 50px;
+    transition: all 0.4s ease;
+  }
+}
+
+.btn2 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  width: 130px;
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: black;
+  position: relative;
+  transition: all 0.4s ease;
+
+  .border-top-bottom::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    top: -6px;
+    left: -7px;
+    background: black;
+    transition: all 0.4s ease;
+  }
+  .border-top-bottom::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    bottom: -6px;
+    right: -7px;
+    background: black;
+    transition: all 0.4s ease;
+  }
+  .border-left-right:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -7px;
+    width: 3px;
+    height: 25px;
+    background: black;
+    transition: all 0.4s ease;
+  }
+  .border-left-right:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: -7px;
+    width: 3px;
+    height: 25px;
+    background: black;
     transition: all 0.4s ease;
   }
   &:hover .border-top-bottom:before,
