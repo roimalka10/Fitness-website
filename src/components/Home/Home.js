@@ -205,11 +205,11 @@ const Home = () => {
             suit your fitness level and desired pace.
           </p>
         </div>
-        <a className="btn2">
+        <Link exact to="/contact" className="btn2">
           Contact
           <span className="border-top-bottom"></span>
           <span className="border-left-right"></span>
-        </a>
+        </Link>
       </section>
     </>
   );
