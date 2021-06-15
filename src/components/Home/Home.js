@@ -76,9 +76,9 @@ const Home = () => {
               over the years only for the supplements to go in the bin, the home
               workout equipment to go in the cupboard or the gym memberships
               running unused? Have you ever calculated how much money has gone
-              to waste to date? At Strength Coach Glasgow, we work on actually
-              getting your return on investment, you are paying for the result
-              and we’ll make sure we deliver.
+              to waste to date? At John Doe Studio, we work on actually getting
+              your return on investment, you are paying for the result and we’ll
+              make sure we deliver.
               <br /> <br /> ​Our training programmes are designed not only to
               help you learn correct exercise form, but also to help you improve
               your strength, lose weight if needed and create a quality of life
@@ -113,7 +113,7 @@ const Home = () => {
               <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623629857/images/fitnesspage/confidence_alz7ym.jpg"></img>
               <h2 className="h2">small group coaching</h2>
               <p>
-                My Small Group Coaching is unlike anything you'll have
+                Our Small Group Coaching is unlike anything you'll have
                 experienced before. In micro coaching groups of just 5:1, all
                 your training is customised, recorded and coached by an
                 experienced personal trainer. The balance of the motivational
@@ -147,7 +147,7 @@ const Home = () => {
               <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623630966/images/fitnesspage/energy_ztbbx5.jpg"></img>
               <h2 className="h2">Nutrition coaching</h2>
               <p>
-                I'll teach you how to take control of your health and weight,
+                We'll teach you how to take control of your health and weight,
                 without relying on any specific diet or products, with our 1-2-1
                 nutrition coaching. You'll working alongside a qualified
                 nutritionist to build a sustainable approach together, so you'll
@@ -164,9 +164,9 @@ const Home = () => {
               <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623630966/images/fitnesspage/energy_ztbbx5.jpg"></img>
               <h2 className="h2">Online training</h2>
               <p>
-                My Online Coaching Packages have been created to take the
+                Our Online Coaching Packages have been created to take the
                 guesswork out of getting in the best shape of your life. You'll
-                be working 1-2-1 with your Personal Trainer through my app-
+                be working 1-2-1 with your Personal Trainer through our app,
                 where you'll get workouts designed specifically for you,
                 progress monitored, regular check-ins and nutrition support for
                 unrivalled results, anywhere in the world.

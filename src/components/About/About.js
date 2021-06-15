@@ -38,7 +38,32 @@ const About = () => {
       </section>
 
       <div className="red-line"></div>
-
+      <section className="meet container">
+        <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623760481/images/fitnesspage/jondoe_nzprld.jpg"></img>
+        <div className="services-content">
+          <div className="services-text">
+            <div>
+              <h2 className="h2">Meet John Doe</h2>
+              <h3 className="h2">Founder and personal trainer</h3>
+            </div>
+            <p>
+              John Doe has helped hundreds of people achieve their fitness goals
+              and he can help you too. You might have started to get into
+              exercise because you were eager to find the confidence in your
+              appearance and get in shape. <br />
+              <br /> With nine years of experience in personal training, John
+              has worked hard to find the right strategy and deliver true
+              results that you can count on. Whether you’re looking to lose
+              weight, get stronger or build a lean and athletic look, he will be
+              able to find the right plan for your needs.
+              <br />
+              <br /> One of the main things that motivates John is meeting new
+              people like you and discovering your stories. He wants to help you
+              conquer your roadblocks and pursue your goals to the finish line.
+            </p>
+          </div>
+        </div>
+      </section>
       <section className="success container">
         <div>
           <h2 className="h2">The 4 pillars of success</h2>
@@ -62,7 +87,7 @@ const About = () => {
               <hr className="hr" />
               <br />
               <p>
-                Allan has perfected his diet and nutrition to stay lean and
+                John has perfected his diet and nutrition to stay lean and
                 strong. He’ll help you do the same.
               </p>
             </div>
@@ -73,8 +98,8 @@ const About = () => {
               <hr className="hr" />
               <br />
               <p>
-                At Strength Coach Glasgow you’ll discover how to smash through
-                the mind barriers blocking your goals.
+                At John Doe Studio you’ll discover how to smash through the mind
+                barriers blocking your goals.
               </p>
             </div>
             <div className="h3">
@@ -97,10 +122,10 @@ const About = () => {
         <h2 className="h2">About the studio</h2>
         <p>
           You might have tried to get fit and improve your health before. With
-          Strength Coach Glasgow you’ll discover that the secret to success is
-          making small changes that stack over time for sustainable change. If
-          you focus on what you can do day to day then success will follow. We
-          are here for you to provide the tools, knowledge and expertise but you
+          John Doe Studio you’ll discover that the secret to success is making
+          small changes that stack over time for sustainable change. If you
+          focus on what you can do day to day then success will follow. We are
+          here for you to provide the tools, knowledge and expertise but you
           will need to do the work and challenge yourself in order to reap the
           benefits as you go.{" "}
         </p>
