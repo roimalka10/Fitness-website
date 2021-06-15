@@ -5,7 +5,7 @@ import "./About.scss";
 const About = () => {
   return (
     <>
-      <section className="aboutpage " name="about-id">
+      <section className="aboutpage " id="about">
         <div className="black"></div>
         <div className="about-content container">
           <div className="about-content-main">
