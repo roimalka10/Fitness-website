@@ -33,7 +33,10 @@ const Navbar = () => {
         <a href="/home" className="logo">
           <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623682047/images/fitnesspage/logo2_udbo0y.png" />
         </a>
-        <div className={showMenu ? "navbar-items active" : "navbar-items"}>
+        <div
+          className={showMenu ? "navbar-items active" : "navbar-items"}
+          onClick={handleClick}
+        >
           <NavLink exact to="/" activeClassName="active" onClick={handleClick}>
             <span>Home</span>
           </NavLink>
