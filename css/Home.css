@@ -1,0 +1,230 @@
+.homepage {
+  height: 814px;
+  vertical-align: middle;
+  background-image: url("/./images/homepage2.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 2;
+}
+
+.homepage .black {
+  position: absolute;
+  height: 814px;
+  width: 100%;
+  background-color: black;
+  z-index: 3;
+  opacity: 0.7;
+}
+
+.home-content {
+  position: relative;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-content-main {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+.home-content-main h1 {
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-content-main h1 {
+    font-size: 50px;
+  }
+}
+
+.home-content-main h3 {
+  margin-bottom: 50px;
+  text-transform: uppercase !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-content-main .btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.home-content-main .left {
+  margin-right: 60px;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-content-main .left {
+    margin-left: 145px;
+    margin-bottom: 25px;
+  }
+}
+
+.red-line {
+  background-color: #b60000;
+  width: 100%;
+  padding: 14px;
+}
+
+.believe {
+  padding: 90px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.believe h2 {
+  font-size: 37px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.believe p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .believe {
+    padding: 50px 25px;
+  }
+}
+
+.services {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services h2 {
+  font-size: 37px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services p {
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.services .services-content {
+  display: flex;
+}
+
+.services .services-content .services-text {
+  width: 50%;
+}
+
+.services .services-content img {
+  margin-top: 10px;
+  width: 50%;
+  padding: 0 20px;
+  height: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .services .services-content {
+    flex-direction: column;
+  }
+  .services .services-content .services-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .services .services-content img {
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 1px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .services {
+    padding: 50px 15px;
+  }
+}
+
+.mission {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission h2 {
+  font-size: 37px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .mission h2 {
+    font-size: 30px;
+  }
+}
+
+.mission p {
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mission .mission-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mission .mission-content div {
+  border: 1px solid red;
+  box-shadow: 0 2px 8px 0 rgba(65, 65, 65, 0.856);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 30px;
+  width: 45%;
+  margin: 0px 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mission .mission-content img {
+  width: 100%;
+}
+
+.mission .mission-content a {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .mission .mission-content {
+    flex-direction: column;
+  }
+  .mission .mission-content div {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .mission {
+    padding: 50px 20px;
+    display: block;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@500;700&display=swap");
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.h1,
+.h2 {
+  font-family: "Oswald" !important;
+  font-style: italic !important;
+  text-transform: uppercase !important;
+}
+
+.h3 {
+  font-size: 22px;
+  font-family: "karla" !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .h3 {
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+
+p {
+  font-family: "karla" !important;
+  line-height: 1.8;
+  font-weight: 500;
+  color: #5f5f5f;
+}
+
+label {
+  font-family: "karla" !important;
+  font-size: 14px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  width: 130px;
+  padding: 8px 0;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: #fff;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.btn .border-top-bottom::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  top: -6px;
+  left: -7px;
+  background: #fff;
+  transition: all 0.4s ease;
+}
+
+.btn .border-top-bottom::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  bottom: -6px;
+  right: -7px;
+  background: #fff;
+  transition: all 0.4s ease;
+}
+
+.btn .border-left-right:before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -7px;
+  width: 3px;
+  height: 25px;
+  background: #fff;
+  transition: all 0.4s ease;
+}
+
+.btn .border-left-right:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: -7px;
+  width: 3px;
+  height: 25px;
+  background: #fff;
+  transition: all 0.4s ease;
+}
+
+.btn:hover .border-top-bottom:before,
+.btn:hover .border-top-bottom:after {
+  width: 144px;
+  transition: all 0.4s ease;
+}
+
+.btn:hover .border-left-right:before,
+.btn:hover .border-left-right:after {
+  height: 50px;
+  transition: all 0.4s ease;
+}
+
+.btn2 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  width: 130px;
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: black;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.btn2 .border-top-bottom::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  top: -6px;
+  left: -7px;
+  background: black;
+  transition: all 0.4s ease;
+}
+
+.btn2 .border-top-bottom::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  bottom: -6px;
+  right: -7px;
+  background: black;
+  transition: all 0.4s ease;
+}
+
+.btn2 .border-left-right:before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -7px;
+  width: 3px;
+  height: 25px;
+  background: black;
+  transition: all 0.4s ease;
+}
+
+.btn2 .border-left-right:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: -7px;
+  width: 3px;
+  height: 25px;
+  background: black;
+  transition: all 0.4s ease;
+}
+
+.btn2:hover .border-top-bottom:before,
+.btn2:hover .border-top-bottom:after {
+  width: 144px;
+  transition: all 0.4s ease;
+}
+
+.btn2:hover .border-left-right:before,
+.btn2:hover .border-left-right:after {
+  height: 50px;
+  transition: all 0.4s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=App.css.map */
