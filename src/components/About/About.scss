@@ -168,4 +168,34 @@
     line-height: 1.8;
     margin-bottom: 40px;
   }
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 20px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+    padding: 40px 25px;
+    img {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 900px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px 20px;
+      grid-template-areas:
+        ". . "
+        ". . "
+        ". . ";
+      padding: 20px 0px;
+    }
+  }
+  .images-p {
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
 }

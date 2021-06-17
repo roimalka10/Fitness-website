@@ -129,7 +129,26 @@ const About = () => {
           will need to do the work and challenge yourself in order to reap the
           benefits as you go.{" "}
         </p>
-        <div className="images"></div>
+        <div className="images">
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+          <img src="https://res.cloudinary.com/noname-m-/image/upload/v1623626519/images/fitnesspage/tyingshoes_iwsydh.jpg"></img>
+        </div>
+        <div className="images-p">
+          <p>
+            You might have concluded that fitness is not for you because the
+            methods your tred didn't work. At John Doe Studio, you’ll be offered
+            personal support to achieve your dreams and reach your goals. Your
+            voice and concerns will be heard and you will find the strength
+            necessary to climb higher than before.
+          </p>
+        </div>
       </section>
     </>
   );
