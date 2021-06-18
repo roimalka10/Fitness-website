@@ -60,32 +60,13 @@
 .red-line {
   background-color: #b60000;
   width: 100%;
-  padding: 14px;
-}
-
-.believe {
-  padding: 90px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  h2 {
-    font-size: 37px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  p {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  @media only screen and (max-width: 900px) {
-    padding: 50px 25px;
-  }
+  padding: 18px 14px;
 }
 
 .services {
-  padding: 50px 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +113,8 @@
 }
 
 .mission {
-  padding: 50px 40px;
+  padding: 0px 40px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,5 +173,30 @@
   @media only screen and (max-width: 900px) {
     padding: 50px 20px;
     display: block;
+  }
+}
+
+.believe {
+  margin-bottom: 100px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  div {
+    text-align: center;
+  }
+  @media only screen and (max-width: 900px) {
+    padding: 50px 25px;
   }
 }
