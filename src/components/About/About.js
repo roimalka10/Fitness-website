@@ -45,13 +45,13 @@ const About = () => {
         </Fade>
         <div className="services-content">
           <div className="services-text">
-            <Fade top duration={950}>
+            <Fade top duration={800}>
               <div>
                 <h2 className="h2">Meet John Doe</h2>
                 <h3 className="h2">Founder and personal trainer</h3>
               </div>
             </Fade>
-            <Fade bottom duration={950}>
+            <Fade bottom duration={1000}>
               <p>
                 John Doe has helped hundreds of people achieve their fitness
                 goals and he can help you too. You might have started to get
@@ -74,12 +74,12 @@ const About = () => {
       </section>
       <section className="success container">
         <div>
-          <Fade top duration={950}>
+          <Fade top duration={800}>
             <h2 className="h2">The 4 pillars of success</h2>
           </Fade>
         </div>
         <div className="success-content">
-          <Fade bottom duration={950}>
+          <Fade bottom duration={1000}>
             <div className="success-text">
               <div className="h3">
                 1. Training
@@ -133,10 +133,10 @@ const About = () => {
         </div>
       </section>
       <section className="studio container">
-        <Fade top duration={950}>
+        <Fade top duration={800}>
           <h2 className="h2">About the studio</h2>
         </Fade>
-        <Fade bottom duration={950}>
+        <Fade bottom duration={1000}>
           <p>
             You might have tried to get fit and improve your health before. With
             John Doe Studio you’ll discover that the secret to success is making
@@ -161,7 +161,7 @@ const About = () => {
           </div>
         </Fade>
         <div className="images-p">
-          <Fade bottom duration={950}>
+          <Fade bottom duration={1000}>
             <p>
               You might have concluded that fitness is not for you because the
               methods your tred didn't work. At John Doe Studio, you’ll be

@@ -105,7 +105,7 @@ const Home = () => {
           <Fade top duration={800}>
             <h2 className="h2">What i do</h2>
           </Fade>
-          <Fade bottom duration={950}>
+          <Fade bottom duration={1000}>
             <p>
               You’ve probably already tried dozens of strategies to lose weight
               and get fit; diet pills, gym memberships and taking supplements
