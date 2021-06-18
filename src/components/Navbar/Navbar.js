@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.scss";
 
+// const scrollToTop = () => {
+//   window.scrollTo(0, 0);
+// };
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [navbar, setNavbar] = useState(false);

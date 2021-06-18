@@ -1,5 +1,5 @@
 .aboutpage {
-  height: 631px;
+  height: 814px;
   vertical-align: middle;
   background-image: url("/./images/homepage2.jpg");
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
   z-index: 2;
   .black {
     position: absolute;
-    height: 631px;
+    height: 814px;
     width: 100%;
     background-color: black;
     z-index: 3;
@@ -53,7 +53,9 @@
 }
 
 .meet {
-  padding: 50px 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +91,7 @@
       margin-top: 10px;
       margin-bottom: 20px;
       width: 100%;
-      padding: 0 0px;
+      padding: 0 10px;
     }
   }
   @media only screen and (max-width: 900px) {
@@ -98,7 +100,8 @@
 }
 
 .success {
-  padding: 50px 30px;
+  padding: 0px 40px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,6 +162,7 @@
 
 .studio {
   text-align: center;
+  margin-bottom: 100px;
   h2 {
     font-size: 37px;
     text-align: center;
