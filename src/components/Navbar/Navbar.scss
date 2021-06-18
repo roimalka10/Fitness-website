@@ -26,7 +26,7 @@
 }
 
 .navbar-items > .active {
-  color: #b60000;
+  color: #880000;
 }
 
 .logo {
@@ -107,7 +107,7 @@
       right: 0;
       direction: ltr;
       z-index: -1;
-      background-color: #b60000;
+      background-color: #880000;
       transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1);
     }
 
@@ -117,7 +117,7 @@
     }
 
     &:hover {
-      color: #b60000;
+      color: #880000;
     }
   }
 }
