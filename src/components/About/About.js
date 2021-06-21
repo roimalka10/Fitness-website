@@ -18,7 +18,7 @@ const About = () => {
                 delay: 1.2,
               }}
             >
-              <h1 className="h1">About me</h1>
+              <h1 className="h1">About us</h1>
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
@@ -29,7 +29,7 @@ const About = () => {
               }}
             >
               <h3 className="h3">
-                I love to see clients ignite that little fire inside them. hard
+                We love to see clients ignite that little fire inside them. hard
                 work focused in the right direction and commitment can help them
                 succeed at anything they turn their hand to.
               </h3>

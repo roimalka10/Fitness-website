@@ -10,15 +10,11 @@
   background-color: transparent;
   z-index: 900;
   transition: all 0.4s ease;
-  @media screen and (min-width: 1150px) {
-    padding: 0 60px;
-  }
+ 
   @media screen and (min-width: 1300px) {
-    padding: 0 170px;
+    padding: 0 120px;
   }
-  @media screen and (min-width: 1550px) {
-    padding: 0 260px;
-  }
+  
 }
 
 .navbar.active {
